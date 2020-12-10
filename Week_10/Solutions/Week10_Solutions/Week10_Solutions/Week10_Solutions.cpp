@@ -112,6 +112,7 @@ void merge(int* arr1, int arr1Size, int* arr2, int arr2Size, int* arr3)
 			for (int k = counter1 + counter2; k < arr1Size + arr2Size; k++)
 			{
 				arr3[k] = arr2[counter2];
+				counter2++;
 			}
 			return;
 		}
@@ -120,6 +121,7 @@ void merge(int* arr1, int arr1Size, int* arr2, int arr2Size, int* arr3)
 			for (int k = counter1 + counter2; k < arr1Size + arr1Size; k++)
 			{
 				arr3[k] = arr1[counter1];
+				counter1++;
 			}
 			return;
 		}

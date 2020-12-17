@@ -38,7 +38,7 @@
 
 **6.**   Да се напише функция **getFirstUniqueChar()**, която приема символен низ и връща първия елемент, който не се повтаря. Ако такъв не съществува, функцията връща 0.
 
-Примерен вход и изход: *getFirstUniqueChar\("pepsii")* -> 'p',                                                                                                                                                 											*getFirstUniqueChar("Pepsii") -> 'i'*
+Примерен вход и изход: *getFirstUniqueChar\("pepsii")* -> 'e',                                                                                                                                                 											*getFirstUniqueChar("Pepsii") -> 'P'*
 
  
 
